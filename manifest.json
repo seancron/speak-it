@@ -1,0 +1,12 @@
+{
+  "name":        "Speak it",
+  "version":     "1.0",
+  "description": "Turn every text input into a speech input",
+
+  "content_scripts": [
+    {
+    	"matches": ["http://*/*"],
+    	"js":      ["lib/content.js"]
+    }
+  ]
+}
